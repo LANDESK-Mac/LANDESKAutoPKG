@@ -4,6 +4,7 @@
 
 from autopkglib import Processor, ProcessorError
 import xml.etree.ElementTree as ET
+import string
 
 
 __all__ = ["LANDESKImporter"]
